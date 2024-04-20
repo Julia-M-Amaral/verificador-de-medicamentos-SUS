@@ -43,11 +43,11 @@ function retornaOpcoesUbs(regiao, remedio, callback) {
       console.log("Arquivo JSON criado com sucesso.");
       callback();
     });
-  }, 1);
+  }, 10000);
 
   setTimeout(function () {
     console.log("Continue aqui.");
-  }, 1);
+  }, 4000);
 }
 
 retornaOpcoesUbs(regiaoEscolhidaUsuario, remedioEscolhidoUsuario, function () {
